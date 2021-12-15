@@ -1,7 +1,8 @@
 import requests
 from datetime import date, timedelta
 from elasticsearch import Elasticsearch, helpers
-
+# Pour installer les paquets manquants :
+# pip install requests elasticsearch
 
 # On va récupérer les informations Covid depuis le $from_date
 from_date = date(2021, 12, 1)
